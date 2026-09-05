@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfCode - Entre em contato</title>
+    
+</head>
+<body>
+    <header>
+        <img src="img/professor.png" alt="">
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="musicas.html">Músicas para estudar</a> |
+        <a href="contato.html">Entre em contato</a> |
+        <a href="videos.html">Vídeos sobre programação</a> |
+        <a href="disciplinas.html">Disciplinas ministradas</a>
+    </nav>
+
+    <section>
+        <h1>Entre em contato</h1>
+        <p>Preencha o formulário abaixo para agendar uma aula ou tirar dúvidas:</p>
+
+        <form>
+            <p>Nome:<br>
+                <input type="text" name="nome" placeholder="Seu nome aqui" required>
+            </p>
+
+            <p>E-mail:<br>
+                <input type="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </p>
+
+            <p>Curso de interesse:<br>
+                <select name="curso">
+                    <option>HTML5 e CSS3</option>
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>Git e GitHub</option>
+                </select>
+            </p>
+
+            
+
+            <p>Turno preferido:<br>
+                <input type="radio" name="turno" value="manha" checked> Manhã
+                <input type="radio" name="turno" value="tarde"> Tarde
+                <input type="radio" name="turno" value="noite"> Noite
+            </p>
+
+            <p>Mensagem:<br>
+                <textarea name="mensagem" rows="5" placeholder="Sua mensagem aqui"></textarea>
+            </p>
+
+            <p><input type="submit" value="ENVIAR"></p>
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <small>&copy; 2026 ProfCode</small>
+    </footer>
+</body>
+</html>
