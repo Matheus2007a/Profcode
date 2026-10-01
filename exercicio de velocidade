@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo da Velocidade</title>
+</head>
+<body>
+
+<script>
+    // Solicita o espaço percorrido
+    let S = Number(prompt("Digite o espaço percorrido (em metros):"));
+
+    // Solicita o tempo transcorrido
+    let t = Number(prompt("Digite o tempo transcorrido (em segundos):"));
+
+    // Calcula a velocidade
+    let V = S / t;
+
+    // Exibe o resultado
+    alert("A velocidade do objeto é: " + V + " m/s");
+</script>
+
+</body>
+</html>
